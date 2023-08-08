@@ -9,7 +9,7 @@ require_once("task_4.php");
 startTestElement(1);
 
 // Task #1 testing environment
-echo addNumbers(4, 5, 7, 8, null, [], "56");
+echo "Result = " . addNumbers(4, 5, 7, 8, null, [], "56", [5, "9", 6]);
 
 endTestElement();
 
